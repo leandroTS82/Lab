@@ -57,7 +57,7 @@ namespace PropriedadesDinamicamente
 
             //Lições aprendidas
             //Reflection:
-            //MeuObjeto.GetType().GetProperty(property).SetValue(MeuObjeto, "Propriedade", null);
+            //MeuObjeto.GetType().GetProperty(propriedade).SetValue(MeuObjeto, "Propriedade", null);
 
             //Hashtable:
             //Hashtable hashTable2 = new Hashtable();
