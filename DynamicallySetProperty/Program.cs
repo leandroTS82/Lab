@@ -54,8 +54,14 @@ namespace PropriedadesDinamicamente
                 Console.WriteLine($"Carro {cont} \nMarca do carro: {carro.Marca}, modelo do carro: {carro.Modelo}, placa do carro: {carro.Placa}");
             }
             Console.ReadKey();
-            //myObject.GetType().GetProperty(property).SetValue(myObject, "Bob", null);
 
+            //Lições aprendidas
+            //Reflection:
+            //MeuObjeto.GetType().GetProperty(property).SetValue(MeuObjeto, "Propriedade", null);
+
+            //Hashtable:
+            //Hashtable hashTable2 = new Hashtable();
+            //hashTable2.Add("Marca", "Hyundai");
         }
     }
 }
